@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./illustrations.component.css']
 })
 export class IllustrationsComponent implements OnInit {
-  Myshopping:boolean=true;
+  Myshopping: string = '';
+  
   constructor() { }
 
   ngOnInit(): void {
